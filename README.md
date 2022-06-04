@@ -19,10 +19,5 @@ https://support.binero.com/knowledge-base/cinder-backup/?lang=en
 # Install OPENSTACK easy with DEVSTACK
 https://docs.openstack.org/devstack/latest
 
-
-
+# Something
 https://stackoverflow.com/questions/53969104/shell-script-to-wait-till-the-command-execute-and-status-change
-
-https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/14/html-single/block_storage_backup_guide/index
-
-https://github.com/StackOps/cinder-scheduled-snapshots
