@@ -1,8 +1,17 @@
+# Backup process flow:
+1. Pause VM
+2. Detach Storage Volume from respective VMs
+3. Snapshot VM store on Glance
+4. Call Cinder backup APIs to back up Storage Volume  to Swift
+5. Keep track of these copies in an Excel sheet
+6. Attach Storage Volume back to VM
+7. Resume VM
+
+# Configure cinder CLI backup
+https://www.server-world.info/en/note?os=CentOS_7&p=openstack_train2&f=12
+
 # Backup your Virtual MAchines in OpenSTACK
 https://itgix.com/blog/backing-up-your-virtual-machines-in-openstack/
-
-# Configure cinder backup
-https://www.server-world.info/en/note?os=CentOS_7&p=openstack_train2&f=12
 
 # Back up and restore volumes and snapshots
 https://docs.openstack.org/newton/admin-guide/blockstorage-volume-backups.html
