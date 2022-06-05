@@ -1,6 +1,9 @@
 # Backup your Virtual MAchines in OpenSTACK
 https://itgix.com/blog/backing-up-your-virtual-machines-in-openstack/
 
+# Configure cinder backup
+https://www.server-world.info/en/note?os=CentOS_7&p=openstack_train2&f=12
+
 # Understanding, using, and managing the Block Storage backup service in OpenStack
 https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/16.1/html-single/block_storage_backup_guide/index
 
